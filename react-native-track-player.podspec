@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
                     "ios/RNTrackPlayer/Models/**/*.{h,m,swift}",
                     "ios/RNTrackPlayer/Support/**/*.{h,m,swift}",
                     "ios/RNTrackPlayer/Vendor/AudioPlayer/SwiftAudio/**/*.{h,m,swift}"
+  s.exclude_files = ["ios/RNTrackPlayer/Vendor/AudioPlayer/Example"]
 
   s.dependency "React"
 end
